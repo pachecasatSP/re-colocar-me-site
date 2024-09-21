@@ -53,4 +53,11 @@
       })
     })
   }
+
 }())
+
+function rollToFeaturesSection() {
+  document.getElementById('features-section').scrollIntoView({
+    behavior: 'smooth'
+  });
+}
